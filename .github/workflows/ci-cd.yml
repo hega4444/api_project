@@ -12,6 +12,11 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+      with:
+        submodules: recursive
+        ref: main
+      env:
+        NODE_VERSION: 16.x
 
     - name: Set up Python
       uses: actions/setup-python@v2
