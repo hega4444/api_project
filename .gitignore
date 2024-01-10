@@ -1,0 +1,27 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django
+*.sqlite3
+db.sqlite3
+media/
+
+# Visual Studio Code
+.vscode/
+
+# Virtual environment
+venv/
+env/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore the local settings file
+settings_local.py
